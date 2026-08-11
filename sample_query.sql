@@ -1,1 +1,5 @@
-select customer_id, customer_name from customers where status = 'active'
+SELECT
+    customer_id,
+    customer_name
+FROM customers
+WHERE status = 'active';
